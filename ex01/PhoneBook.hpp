@@ -20,6 +20,8 @@ class PhoneBook
         int numContacts_;
 };
 
+void display_contact_info(Contact contact);
+
 #endif
 
 /*

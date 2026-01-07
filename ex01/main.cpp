@@ -97,7 +97,7 @@ int main()
         {
             phoneBook.displayContacts();
 
-            std::cout << "\nEnter the index of the contact to search: ";
+            std::cout << "\nEnter the number of the contact to search: ";
             std::cin >> index;
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -119,7 +119,6 @@ int main()
         }
         else if (str == "EXIT")
         {
-            std::cout << "\n¡El programa se cierra y los contactos se pierden para siempre!\n" << std::endl;
             running = false;
             return (0);
         }
